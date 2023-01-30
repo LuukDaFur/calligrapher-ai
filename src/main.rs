@@ -1,4 +1,3 @@
-#![windows_subsystem="windows"]
 #[macro_use] extern crate sciter;
 use sciter::Value;
 use std::thread;

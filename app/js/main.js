@@ -1,9 +1,11 @@
+//Imports
 import { $, $$ } from '@sciter';
 import * as sys from '@sys';
 import { encode, decode } from '@sciter';
 
 adjustWindow();
 
+//Window adjust function for fullscreen and such
 function adjustWindow() {
   const [sw, sh] = Window.this.screenBox('frame', 'dimension');
   const w = sw / 2;
@@ -13,6 +15,7 @@ function adjustWindow() {
   $('#canvas').attributes.height = h + 'px';
 }
 
+//Base write function
 async function write() {
   while ($('#canvas').lastChild) {
     $('#canvas').lastChild.remove();
@@ -20,7 +23,7 @@ async function write() {
   const text = $('#string').value;
   const style = +$('#style').value;
   const legibility = +$('#legibility').value;
-  const speed = +$('#speed').value;
+  const speed = +$('#speed').value + 200;
   const width = +$('#thickness').value;
   $('#string').state.disabled = true;
   $('#write').classList.add('disabled');
@@ -38,6 +41,7 @@ async function write() {
   $('#write').classList.remove('disabled');
 }
 
+//Save file
 $('#save').on('click', () => {
   let filename = Window.this.selectFile('save');
   if (filename === null) return;
@@ -50,17 +54,21 @@ $('#save').on('click', () => {
   });
 });
 
+//Write on enter
 $('#string').on('keyup', function (evt) {
   if (evt.keyCode === 13) write();
 });
 
+//Write on click
 $('#write').on('click', function () {
   !this.classList.contains('disabled') && write();
 });
 
+//Function variable?
 let mustRemove = false;
 
 function callback(d) {
+  //Regex, statement for removal
   d = d.replace(/\n/g, '');
   if (d === 'REMOVE LAST PATH') {
     mustRemove = true;
@@ -69,10 +77,12 @@ function callback(d) {
       $('#canvas').lastChild.remove();
       mustRemove = false;
     }
+    //SVG generation
     $('#canvas').innerHTML += `<path d="${d}" stroke="black" stroke-width="1" fill="black"></path>`;
   }
 }
 
+//Write function
 function _write(
   text,
   style,
@@ -99,6 +109,7 @@ function _write(
   });
 }
 
+//If F1 Key is pressed, send to about
 document.addEventListener('keyup', ({ code }) => {
   if (code === 'KeyF1') {
     Window.this.modal({

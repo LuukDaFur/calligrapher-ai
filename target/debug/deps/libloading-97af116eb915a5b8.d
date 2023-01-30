@@ -1,0 +1,12 @@
+C:\Users\user\calligrapher-ai\target\debug\deps\libloading-97af116eb915a5b8.rmeta: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\mod.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\windows\mod.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\changelog.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\util.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\error.rs
+
+C:\Users\user\calligrapher-ai\target\debug\deps\liblibloading-97af116eb915a5b8.rlib: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\mod.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\windows\mod.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\changelog.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\util.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\error.rs
+
+C:\Users\user\calligrapher-ai\target\debug\deps\libloading-97af116eb915a5b8.d: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\mod.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\windows\mod.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\changelog.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\util.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\error.rs
+
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\lib.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\mod.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\os\windows\mod.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\changelog.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\util.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\libloading-0.7.0\src\error.rs:
