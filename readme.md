@@ -22,13 +22,4 @@
 | Synthesize handwriting | <kbd>Enter</kbd> |
 | Display the “About” popup   | <kbd>F1</kbd>    |
 
-
-<h1 align="center">
-  <a href="https://github.com/girkovarpa/calligrapher-ai/releases">
-  👉 Download for Windows 👈</a>
-</h1>
-
-<h4 align="center">
-  📧 Send inquiries to girkovarpa@protonmail.com 📪
-</h4>
-
+<h4 align="center">We're creating a linux compatible binary of this project</h4>
